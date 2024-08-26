@@ -44,7 +44,6 @@ while op  != '0':
         print(' ')
     elif op == '0':
         print('bye, bye...')
-        break
     else:
         print('inválido,tente novamente...')
         print(' ')
