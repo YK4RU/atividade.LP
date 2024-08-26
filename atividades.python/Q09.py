@@ -42,6 +42,9 @@ while op  != '0':
         n1 = int(input('digite n1: '))  
         print(f'{n1}^ = {n1 ** 2}')
         print(' ')
+    elif op == '0':
+        print('bye, bye...')
+        break
     else:
         print('inválido,tente novamente...')
         print(' ')
